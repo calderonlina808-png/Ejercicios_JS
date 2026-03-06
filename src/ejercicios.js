@@ -187,32 +187,32 @@ function combinarNombres(nombre, apellido) {return nombre+" "+apellido
 }
 
 // Test 28
-function obtenerSaludo(nombre) {return "hola" +nombre+ "!";
+function obtenerSaludo(nombre) {return "Hola " + nombre + "!";
 	// Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
 	// "Martin" -> "Hola Martin!"
 	// Tu código:
 }
 
 // Test 29
-function obtenerAreaRectangulo(alto, ancho) {return alto*ancho
+function obtenerAreaRectangulo(alto, ancho) {
 	// Retornar el area de un rectángulo teniendo su altura y ancho
 	// Tu código:
 }
 
 // Test 30
-function retornarPerimetro(lado) {return lado*4
+function retornarPerimetro(lado) {
 	//Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
 	//Escribe tu código aquí
 }
 
 // Test 31
-function areaDelTriangulo(base, altura) {return base*altura/2
+function areaDelTriangulo(base, altura) {
 	//Desarrolle una función que calcule el área de un triángulo.
 	//Escribe tu código aquí
 }
 
 // Test 32
-function deEuroAdolar(euro) {let dolar = 1.20*euro
+function deEuroAdolar(euro) {
 	//Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
 	//como parámetro un número de euros y calcule el cambio en dólares.
 	//Escribe tu código aquí
