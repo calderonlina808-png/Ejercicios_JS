@@ -158,7 +158,7 @@ function obtenerEstacion(mes) {
 											case 11:
 												return "Otoño";
 												default:
-													return "Mes inválido";
+													return "Mes inválido"
 
 	}
 	// Recibe un número del 1 al 12 representando el mes.
@@ -173,6 +173,8 @@ function obtenerEstacion(mes) {
 
 // Test 10:
 function calcularPropina(total, porcentaje) {
+	let propina = total * porcentaje / 100;
+	return Number(propina.toFixed(2));
 	// Recibe: total de la cuenta (número), porcentaje de propina (número, ej: 10 para 10%)
 	// Devuelve el monto de la propina redondeado a 2 decimales.
 	// Ejemplo: calcularPropina(100, 15) → 15.00
