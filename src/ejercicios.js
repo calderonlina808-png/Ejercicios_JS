@@ -136,7 +136,7 @@ function elevar(num, exponent) {return Math.pow(num, exponent)
 }
 
 // Test 22
-function redondearNumero(num) {
+function redondearNumero(num) {return Math.round(num)
 	// Redondea "num" al entero más próximo y devuélvelo
 	// Tu código:
 }
