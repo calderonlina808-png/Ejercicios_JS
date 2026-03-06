@@ -129,6 +129,9 @@ function calcularIMC(peso, altura) {
 
 // Test 8:
 function esMultiplo(num1, num2) {
+	// El operador % (módulo) da 0 si la división es exacta
+	// Verificamos ambas direcciones: num1/num2 o num2/num1
+	return (num1 % num2 === 0) || (num2 % num1 === 0);
 	// Recibe dos números enteros.
 	// Devuelve true si num1 es múltiplo de num2 o viceversa.
 	// Ejemplo: esMultiplo(10, 5) → true, esMultiplo(7, 3) → false
