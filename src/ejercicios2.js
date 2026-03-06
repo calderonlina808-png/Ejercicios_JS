@@ -62,6 +62,11 @@ function calcularDescuento(precio, esMiembro, esFinDeSemana) {
 
 // Test 4:
 function obtenerDiaSemana(numero) {
+	const dias =
+	["Lunes","martes","Miércoles","jueves","viernes","Sábado","Domingo"];
+	if (numero < 1 || numero > 7) {
+		return "Día inválido"
+	} return dias[numero - 1]
 	// Recibe un número del 1 al 7.
 	// Devuelve el nombre del día correspondiente usando switch:
 	// 1 = "Lunes", 2 = "Martes", ..., 7 = "Domingo"
