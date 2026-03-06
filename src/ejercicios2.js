@@ -107,6 +107,16 @@ function validarContraseña(password) {
 
 // Test 7:
 function calcularIMC(peso, altura) {
+	const imc = peso / (altura * altura);
+	if (imc < 18.5) {
+		return "Bajo peso";
+	} else if (imc >= 18.5 && imc < 25) {
+		return "Peso normal";
+	} else if (imc >= 25 && imc < 30) {
+		return "Sobrepeso";
+	} else {
+		return "Obesidad";
+	}
 	// Recibe: peso (kg, número), altura (metros, número)
 	// Calcula el IMC: peso / (altura * altura)
 	// Devuelve un string con la clasificación:
