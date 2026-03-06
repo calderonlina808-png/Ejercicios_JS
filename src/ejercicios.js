@@ -194,25 +194,26 @@ function obtenerSaludo(nombre) {return "Hola " + nombre + "!";
 }
 
 // Test 29
-function obtenerAreaRectangulo(alto, ancho) {
+function obtenerAreaRectangulo(alto, ancho) { return alto*ancho
 	// Retornar el area de un rectángulo teniendo su altura y ancho
 	// Tu código:
 }
 
 // Test 30
-function retornarPerimetro(lado) {
+function retornarPerimetro(lado) {return lado*4
 	//Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
 	//Escribe tu código aquí
 }
 
 // Test 31
-function areaDelTriangulo(base, altura) {
+function areaDelTriangulo(base, altura) {return base*altura/2
 	//Desarrolle una función que calcule el área de un triángulo.
 	//Escribe tu código aquí
 }
 
 // Test 32
-function deEuroAdolar(euro) {
+function deEuroAdolar(euro) {let dolar = 1.20*euro
+	return dolar
 	//Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
 	//como parámetro un número de euros y calcule el cambio en dólares.
 	//Escribe tu código aquí
