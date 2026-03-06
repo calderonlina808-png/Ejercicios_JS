@@ -221,6 +221,10 @@ function deEuroAdolar(euro) {let dolar = 1.20*euro
 
 // Test 33
 function esVocal(letra) {
+	if (letra.length !== 1) {
+		return "Dato incorrecto"
+	}
+	return "aeiou".includes(letra) ? "Es vocal" : "Dato incorrecto";
 	//Escribe una función que reciba una letra y, si es una vocal, muestre el mensaje “Es vocal”.
 	//Verificar si el usuario ingresó un string de más de un carácter, en ese caso, informarle
 	//que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
