@@ -8,27 +8,27 @@
 
 // Test 1:
 // Crea una variable "string", puede contener lo que quieras:
-const nuevaString = null;
+const nuevaString = "Hola";
 
 // Test 2
 // Crea una variable numérica, puede ser cualquier número:
-const nuevoNum = null;
+const nuevoNum = 11;
 
 // Test 3
 // Crea una variable booleana:
-const nuevoBool = null;
+const nuevoBool = true;
 
 // Test 4
 // Resuelve el siguiente problema matemático:
-const nuevaResta = 10 - null === 5;
+const nuevaResta = 10-5===5;
 
 // Test 5
 // Resuelve el siguiente problema matemático:
-const nuevaMultiplicacion = 10 * null === 40;
+const nuevaMultiplicacion = 10*4===40;
 
 // Test 6
 // Resuelve el siguiente problema matemático:
-const nuevoModulo = 21 % 5 === null;
+const nuevoModulo = 21%5===1;
 
 // En los próximos 22 problemas, deberás completar la función.
 // Todo tu código irá dentro de las llaves de la función.
@@ -37,86 +37,87 @@ const nuevoModulo = 21 % 5 === null;
 // No cambies los nombres de las funciones.
 
 // Test 7
-function devolverString(str) {
+function devolverString(str) { 
+	return str;
 	// "Return" la string provista: str
 	// Tu código:
 }
 
 // Test 8
-function suma(x, y) {
+function suma(x, y) {return x+y
 	// "x" e "y" son números
 	// Suma "x" e "y" juntos y devuelve el valor
 	// Tu código:
 }
 
 // Test 9
-function resta(x, y) {
+function resta(x, y) {return x-y
 	// Resta "y" de "x" y devuelve el valor
 	// Tu código:
 }
 
 // Test 10
-function divide(x, y) {
+function divide(x, y) {return x/y
 	// Divide "x" entre "y" y devuelve el valor
 	// Tu código:
 }
 
 // Test 11
-function multiplica(x, y) {
+function multiplica(x, y) {return x*y
 	// Multiplica "x" por "y" y devuelve el valor
 	// Tu código:
 }
 
 // Test 12
-function sonIguales(x, y) {
+function sonIguales(x, y) {return x===y
 	// Devuelve "true" si "x" e "y" son iguales
 	// De lo contrario, devuelve "false"
 	// Tu código:
 }
 
 // Test 13
-function tienenMismaLongitud(str1, str2) {
+function tienenMismaLongitud(str1, str2) {return str1.length===str2.length
 	// Devuelve "true" si las dos strings tienen la misma longitud
 	// De lo contrario, devuelve "false"
 	// Tu código:
 }
 
 // Test 14
-function menosQueNoventa(num) {
+function menosQueNoventa(num) {return num<90
 	// Devuelve "true" si el argumento de la función "num" es menor que noventa
 	// De lo contrario, devuelve "false"
 	// Tu código:
 }
 
 // Test 15
-function mayorQueCincuenta(num) {
+function mayorQueCincuenta(num) {return num>50
 	// Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
 	// De lo contrario, devuelve "false"
 	// Tu código:
 }
 
 // Test 16
-function obtenerResto(x, y) {
+function obtenerResto(x, y) {return x%y
 	// Obten el resto de la división de "x" entre "y"
 	// Tu código:
 }
 
 // Test 17
-function esPar(num) {
+function esPar(num) {return num%2===0
 	// Devuelve "true" si "num" es par
 	// De lo contrario, devuelve "false"
 	// Tu código:
 }
 
 // Test 18
-function esImpar(num) {
+function esImpar(num) {return num%2===1
 	// Devuelve "true" si "num" es impar
 	// De lo contrario, devuelve "false"
 	// Tu código:
 }
 
 // Test 19
-function elevarAlCuadrado(num) {
+function elevarAlCuadrado(num) {return num**
 	// Devuelve el valor de "num" elevado al cuadrado
 	// ojo: No es raiz cuadrada!
 	// Tu código:
