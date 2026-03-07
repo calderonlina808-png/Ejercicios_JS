@@ -251,6 +251,11 @@ function sumarHasta(limite) {
 
 // Test 15:
 function obtenerParesHasta(limite) {
+	let pares = [];
+	for (let i = 0; i <= limite; i += 2) {
+		pares.push(i)
+	}
+	return pares;
 	// Recibe un número entero positivo.
 	// Devuelve un array con todos los números pares desde 0 hasta el límite (inclusive).
 	// Ejemplo: obtenerParesHasta(10) → [0, 2, 4, 6, 8, 10]
