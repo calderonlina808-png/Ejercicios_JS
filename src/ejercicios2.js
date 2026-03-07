@@ -297,6 +297,14 @@ function buscarNumero(array, objetivo) {
 
 // Test 18:
 function obtenerPrimerosN(array, n) {
+	let nuevoArray = [];
+	if (n <= 0) {
+		return nuevoArray;
+	}
+	for (let i = 0; i < n && i < array.length; i++) {
+		nuevoArray.push(array[i]);
+	}
+	return nuevoArray;
 	// Recibe: array (cualquier tipo), n (número entero positivo)
 	// Devuelve un nuevo array con los primeros n elementos del array original.
 	// Si n es mayor que la longitud del array, devuelve el array completo.
