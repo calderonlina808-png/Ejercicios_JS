@@ -76,8 +76,6 @@ function obtenerDiaSemana(numero) {
 
 // Test 5:
 function esAnioBisiesto(anio) {
-	// Si es divisible por 400, es bisiesto automáticmente
-	// Si no, debe ser divisible por 4 Y NO por 100
 	return (anio % 400 === 0) || (anio % 4 === 0 && anio % 100 !== 0);
 	// Recibe un número representando un año.
 	// Devuelve true si es bisiesto, false si no lo es.
@@ -219,6 +217,13 @@ function contarVocales(texto) {
 
 // Test 13:
 function formatearNombre(nombre, apellido, mayusculas) {
+	if (mayusculas) {
+		return (nombre + " " + apellido). toUpperCase();
+	} else {
+		const nombreFormateado = nombre.charAt(0).toUpperCase() + nombre.slice(1).toLowerCase();
+		const apellidoFormateado = apellido.charAt(0).toUpperCase() + apellido.slice(1).toLowerCase();
+		return nombreFormateado + " " + apellidoFormateado;
+	}
 	// Recibe: nombre (string), apellido (string), mayusculas (boolean)
 	// Devuelve el nombre completo formateado:
 	// - Si mayusculas es true: "NOMBRE APELLIDO"
